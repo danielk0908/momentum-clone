@@ -1,13 +1,72 @@
+@import "reset.css";
+
 body {
   background-color: #34495e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  /* -webkit-text-stroke: 0.2px black; */
+}
+
+.js-clock h1 {
+  margin: 300px 0 0 0;
+  font-size: 130px;
+  font-weight: 600;
+}
+
+.js-form,
+.js-greetings,
+.js-toDoList {
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.js-form input,
+.js-toDoForm input {
+  margin-top: 40px;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+}
+
+::placeholder {
+  color: white;
+  font-size: 25px;
+}
+
+.js-form input,
+.js-toDoForm input,
+.js-greetings,
+.js-toDoList {
+  font-size: 25px;
+}
+
+.js-greetings h4 {
+  font-size: 35px;
+}
+
+.js-toDoForm {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.js-weather {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  font-size: 20px;
+  color: white;
 }
 
 .btn {
   cursor: pointer;
-}
-
-body {
-  color: white;
+  background-color: transparent;
+  overflow: hidden;
 }
 
 .clicked {
