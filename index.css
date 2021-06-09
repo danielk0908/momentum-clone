@@ -8,11 +8,12 @@ body {
   flex-direction: column;
   color: white;
   font-family: "Open Sans", sans-serif;
+  background-size: cover;
   /* -webkit-text-stroke: 0.2px black; */
 }
 
 .js-clock h1 {
-  margin: 300px 0 0 0;
+  margin: 200px 0 0 0;
   font-size: 130px;
   font-weight: 600;
 }
